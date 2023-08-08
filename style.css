@@ -1,0 +1,84 @@
+:root {
+    --dark: #061130;
+    --light: #F4F6F8;
+    --blue: #1C4BC4;
+    --yellow: #FAFD61;
+}
+
+.csLogo {
+    margin-right: 45%;
+    padding: 15px;
+}
+
+.topLinks {
+    text-decoration: none;
+    color: var(--light);
+}
+
+header {
+    background-color: var(--dark);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light);
+    padding: 15px;
+
+}
+
+.letsChat-button {
+    color: var(--light);
+    background-color: var(--blue);
+    padding: 8px;
+    border-radius: .75em;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-color: var(--dark);
+    color: var(--light)
+}
+
+
+.service {
+    color: var(--yellow);
+}
+
+.hero-card {
+    width: 50%;
+    margin-left: 15%;
+    padding: 2em;
+    padding-top: 0;
+    text-align: left;
+}
+
+.villain-card {
+    width: 50%;
+    padding: 1em;
+    margin-right: 5%;
+}
+
+.fitImage {
+    width: 100%;
+}
+
+.bottomLinks {
+    color: var(--blue);
+}
+
+footer {
+    background-color: var(--light);
+    justify-content: space-around;
+    padding: 2em;
+    color: var(--blue);
+}
+
+.footer-card {
+    color: var(--dark);
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
